@@ -1,0 +1,1 @@
+['Deposited 7.0', 'Withdrawn failed: insufficient balance', 'Added 5 of qwe', 'Removed failed for qwe', 'Deposited 6.0', 'Added 9 of asd', 'Removed 1 of asd', 'Withdrew 1.0']
