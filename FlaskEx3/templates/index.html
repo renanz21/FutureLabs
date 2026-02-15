@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h3>Dashboard</h3>
+<div class="columns">
+    <div class="column col-6">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title h5">Current Stock</div>
+            </div>
+            <div class="card-body">
+                <p>Total items in warehouse: {{stock_level}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="column col-6">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title h5">Account Balance</div>
+            </div>
+            <div class="card-body">
+                <p>Balance: €{{ balance }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="divider"></div>
+<div class="columns">
+    <div class="column col-4">
+        <a href="/purchase" class="btn btn-primary btn-block">Purchase</a>
+    </div>
+    <div class="column col-4">
+        <a href="/sales" class="btn btn-primary btn-block">Sales</a>
+    </div>
+    <div class="column col-4">
+        <a href="/balance" class="btn btn-primary btn-block">Balance Change</a>
+    </div>
+</div>
+
+{% if error %}
+<div class="toast toast-error mt-2">
+    {{ error }}
+</div>
+{% endif %}
+
+{% endblock %}
