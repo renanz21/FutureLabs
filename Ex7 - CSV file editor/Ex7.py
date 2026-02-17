@@ -28,7 +28,7 @@ def parse_change(change):
 
 def main():
     if len(sys.argv) < 3:
-        print("Example of use of script - python <path> <source> <destination> <change1> <change2>") # python Ex7.py csv_file.csv csv_file_mod.csv 0,0,piano 3,1,mug
+        print("Example of use of script - python <path> <source> <destination> <change1> <change2>") # python Ex7 - CSV file editor.py csv_file.csv csv_file_mod.csv 0,0,piano 3,1,mug
         print("Example of change: <row>,<col>,<value>\n")
         sys.exit(1)
 

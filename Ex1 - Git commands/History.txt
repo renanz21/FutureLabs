@@ -1,0 +1,386 @@
+commit c52e6b621d5fd69f3a6b98dca83e8fe77e72d3af (HEAD -> master)
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:17:17 2025 +0100
+
+    Renamed Chorus file to Main-chorus.txt
+
+diff --git a/Songs/Chorus-occur-1.txt b/Songs/Main-chorus.txt
+similarity index 100%
+rename from Songs/Chorus-occur-1.txt
+rename to Songs/Main-chorus.txt
+
+commit fd58c281dd3de5bc20d3503f6cc0fb6237c7f3f5
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:14:12 2025 +0100
+
+    Removed duplicate chorus files
+
+diff --git a/Songs/Chorus-occur-2.txt b/Songs/Chorus-occur-2.txt
+deleted file mode 100644
+index c56e16f..0000000
+--- a/Songs/Chorus-occur-2.txt
++++ /dev/null
+@@ -1,4 +0,0 @@
+-Lord, I need You, oh, I need You
+-Every hour, I need You
+-My one defense, my righteousness
+-Oh God, how I need You
+diff --git a/Songs/Chorus-occur-3.txt b/Songs/Chorus-occur-3.txt
+deleted file mode 100644
+index c56e16f..0000000
+--- a/Songs/Chorus-occur-3.txt
++++ /dev/null
+@@ -1,4 +0,0 @@
+-Lord, I need You, oh, I need You
+-Every hour, I need You
+-My one defense, my righteousness
+-Oh God, how I need You
+
+commit c87567a57bb97d583ce903fbc9bff87239703f6f
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:09:21 2025 +0100
+
+    Revert "Removed 1 line from Chorus-occur-1"
+
+    This reverts commit 4be026338fcdf7154c24993a2fddcec02e79acd7.
+
+diff --git a/Songs/Chorus-occur-1.txt b/Songs/Chorus-occur-1.txt
+index 5e86ef6..c56e16f 100644
+--- a/Songs/Chorus-occur-1.txt
++++ b/Songs/Chorus-occur-1.txt
+@@ -1,4 +1,4 @@
+-
++Lord, I need You, oh, I need You
+ Every hour, I need You
+ My one defense, my righteousness
+ Oh God, how I need You
+
+commit 4be026338fcdf7154c24993a2fddcec02e79acd7
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:06:50 2025 +0100
+
+    Removed 1 line from Chorus-occur-1
+
+diff --git a/Songs/Chorus-occur-1.txt b/Songs/Chorus-occur-1.txt
+index c56e16f..5e86ef6 100644
+--- a/Songs/Chorus-occur-1.txt
++++ b/Songs/Chorus-occur-1.txt
+@@ -1,4 +1,4 @@
+-Lord, I need You, oh, I need You
++
+ Every hour, I need You
+ My one defense, my righteousness
+ Oh God, how I need You
+
+commit 91623825c365439865d0557cdc2008b6252453e3
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:05:47 2025 +0100
+
+    SubChorus 2 commit
+
+diff --git a/Songs/SubChorus 2.txt b/Songs/SubChorus 2.txt
+new file mode 100644
+index 0000000..4981065
+--- /dev/null
++++ b/Songs/SubChorus 2.txt
+@@ -0,0 +1,2 @@
++You're my one defense, my righteousness
++Oh God, how I need You
+\ No newline at end of file
+
+commit 0e6aa90626e5afa8c2f318c24d60c250823eeaa1
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:05:22 2025 +0100
+
+    SubChorus 1 commit
+
+diff --git a/Songs/SubChorus 1.txt b/Songs/SubChorus 1.txt
+new file mode 100644
+index 0000000..4981065
+--- /dev/null
++++ b/Songs/SubChorus 1.txt
+@@ -0,0 +1,2 @@
++You're my one defense, my righteousness
++Oh God, how I need You
+\ No newline at end of file
+
+commit ca024db5cbfb8202472d80b17ea7b0ac068ae606
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:04:20 2025 +0100
+
+    Chorus 3rd time commit
+
+diff --git a/Songs/Chorus-occur-3.txt b/Songs/Chorus-occur-3.txt
+new file mode 100644
+index 0000000..c56e16f
+--- /dev/null
++++ b/Songs/Chorus-occur-3.txt
+@@ -0,0 +1,4 @@
++Lord, I need You, oh, I need You
++Every hour, I need You
++My one defense, my righteousness
++Oh God, how I need You
+
+commit 603b08ae46975e18a717b47a2f8b4a78c3777d8b
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:03:52 2025 +0100
+
+    Verse 12 commit
+
+diff --git a/Songs/Verse 12.txt b/Songs/Verse 12.txt
+new file mode 100644
+index 0000000..f90e2c0
+--- /dev/null
++++ b/Songs/Verse 12.txt
+@@ -0,0 +1 @@
++Jesus, You're my hope and stay
+\ No newline at end of file
+
+commit 5a0db6c0afcff85bb5e2db6ff90dcac0385187df
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:03:15 2025 +0100
+
+    Verse 11 commit
+
+diff --git a/Songs/Verse 11.txt b/Songs/Verse 11.txt
+new file mode 100644
+index 0000000..0de40f7
+--- /dev/null
++++ b/Songs/Verse 11.txt
+@@ -0,0 +1 @@
++And when I cannot stand, I'll fall on You
+\ No newline at end of file
+
+commit b8e7a99cdf627c9267bd378db5f8475f2eb7291d
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:02:54 2025 +0100
+
+    Verse 10 commit
+
+diff --git a/Songs/Verse 10.txt b/Songs/Verse 10.txt
+new file mode 100644
+index 0000000..83d7694
+--- /dev/null
++++ b/Songs/Verse 10.txt
+@@ -0,0 +1 @@
++When temptation comes my way
+\ No newline at end of file
+
+commit c426c4041c00a61dac87d4cacde25ba91217055e
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:02:13 2025 +0100
+
+    Verse 9 commit
+
+diff --git a/Songs/Verse 9.txt b/Songs/Verse 9.txt
+new file mode 100644
+index 0000000..e62a213
+--- /dev/null
++++ b/Songs/Verse 9.txt
+@@ -0,0 +1 @@
++So teach my song to rise to You
+\ No newline at end of file
+
+commit 710512ee90f2c2577506ad43cb7dbfbc426284b0
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:00:56 2025 +0100
+
+    Chorus 2nd time commit
+
+diff --git a/Songs/Chorus-occur-2.txt b/Songs/Chorus-occur-2.txt
+new file mode 100644
+index 0000000..c56e16f
+--- /dev/null
++++ b/Songs/Chorus-occur-2.txt
+@@ -0,0 +1,4 @@
++Lord, I need You, oh, I need You
++Every hour, I need You
++My one defense, my righteousness
++Oh God, how I need You
+
+commit efe2d17fb462225813e52ec79c75256db8334f4f
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 04:00:14 2025 +0100
+
+    Verse 8 commit
+
+diff --git a/Songs/Verse 8.txt b/Songs/Verse 8.txt
+new file mode 100644
+index 0000000..2a89de8
+--- /dev/null
++++ b/Songs/Verse 8.txt
+@@ -0,0 +1 @@
++Holiness is Christ in me
+\ No newline at end of file
+
+commit 6a7eac2f18d2023c4cf694455896d1af88f46afe
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 03:59:22 2025 +0100
+
+    Verse 7 commit
+
+diff --git a/Songs/Verse 7.txt b/Songs/Verse 7.txt
+new file mode 100644
+index 0000000..48da273
+--- /dev/null
++++ b/Songs/Verse 7.txt
+@@ -0,0 +1 @@
++And where You are, Lord, I am free
+\ No newline at end of file
+
+commit caac85aa804ec5fe70512299e1d0d43fcfadf6cc
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 03:58:57 2025 +0100
+
+    Verse 6 commit
+
+diff --git a/Songs/Verse 6.txt b/Songs/Verse 6.txt
+new file mode 100644
+index 0000000..de202ac
+--- /dev/null
++++ b/Songs/Verse 6.txt
+@@ -0,0 +1 @@
++Where grace is found is where You are
+\ No newline at end of file
+
+commit 83fa68d755c7306b8af0ebf8921a626f5d0980f4
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 03:58:29 2025 +0100
+
+    Verse 5 commit
+
+diff --git a/Songs/Verse 5.txt b/Songs/Verse 5.txt
+new file mode 100644
+index 0000000..b27270c
+--- /dev/null
++++ b/Songs/Verse 5.txt
+@@ -0,0 +1 @@
++Where sin runs deep, Your grace is more
+\ No newline at end of file
+
+commit f4ef890d13fffea7135491fb9f409af6970f4cd7
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 03:57:18 2025 +0100
+
+    Chorus 1st time commit
+
+diff --git a/Songs/Chorus-occur-1.txt b/Songs/Chorus-occur-1.txt
+new file mode 100644
+index 0000000..c56e16f
+--- /dev/null
++++ b/Songs/Chorus-occur-1.txt
+@@ -0,0 +1,4 @@
++Lord, I need You, oh, I need You
++Every hour, I need You
++My one defense, my righteousness
++Oh God, how I need You
+
+commit 1fca942dd3bad7885bbf463f0c2de6b7795ec4b3
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 03:56:09 2025 +0100
+
+    Verse 4 commit
+
+diff --git a/Songs/Verse 4.txt b/Songs/Verse 4.txt
+new file mode 100644
+index 0000000..6fa9194
+--- /dev/null
++++ b/Songs/Verse 4.txt
+@@ -0,0 +1 @@
++You're the one that guides my heart
+\ No newline at end of file
+
+commit bdb1b2b48177706667c9a75553e72556a037e517
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 03:55:23 2025 +0100
+
+    Verse 3 commit
+
+diff --git a/Songs/Verse 3.txt b/Songs/Verse 3.txt
+new file mode 100644
+index 0000000..b3689a5
+--- /dev/null
++++ b/Songs/Verse 3.txt
+@@ -0,0 +1 @@
++Without You, I fall apart
+\ No newline at end of file
+
+commit 91955395bb74154922ba37bf1b0502c26eb43165
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 03:54:54 2025 +0100
+
+    Verse 2 commit
+
+diff --git a/Songs/Verse 2.txt b/Songs/Verse 2.txt
+new file mode 100644
+index 0000000..5e04cf1
+--- /dev/null
++++ b/Songs/Verse 2.txt
+@@ -0,0 +1 @@
++Bowing here, I find my rest
+\ No newline at end of file
+
+commit c5b59e361d81fc7c5ec791bc04897683bb6a4ccf
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 03:53:28 2025 +0100
+
+    Verse 1 commit
+
+diff --git a/Songs/Songs.txt b/Songs/Songs.txt
+index e69de29..94fccf2 100644
+--- a/Songs/Songs.txt
++++ b/Songs/Songs.txt
+@@ -0,0 +1,34 @@
++Lord I come, I confess
++Bowing here, I find my rest
++Without You, I fall apart
++You're the one that guides my heart
++
++Lord, I need You, oh, I need You
++Every hour, I need You
++My one defense, my righteousness
++Oh God, how I need You
++
++Where sin runs deep, Your grace is more
++Where grace is found is where You are
++And where You are, Lord, I am free
++Holiness is Christ in me
++
++Lord, I need You, oh, I need You
++Every hour, I need You
++My one defense, my righteousness
++Oh God, how I need You
++
++So teach my song to rise to You
++When temptation comes my way
++And when I cannot stand, I'll fall on You
++Jesus, You're my hope and stay
++
++Lord, I need You, oh, I need You
++Every hour, I need You
++My one defense, my righteousness
++Oh God, how I need You
++You're my one defense, my righteousness
++Oh God, how I need You
++
++My one defense, my righteousness
++Oh God, how I need You
+\ No newline at end of file
+diff --git a/Songs/Verse 1.txt b/Songs/Verse 1.txt
+new file mode 100644
+index 0000000..c3f2771
+--- /dev/null
++++ b/Songs/Verse 1.txt
+@@ -0,0 +1 @@
++Lord I come, I confess
+\ No newline at end of file
+
+commit 9011c4487f1015b41508bb5af7cbf99f420819d2
+Author: Felipe <zorost@yahoo.com>
+Date:   Tue Oct 14 03:39:03 2025 +0100
+
+    Created directory with 1 song file
+
+diff --git a/Songs/Songs.txt b/Songs/Songs.txt
+new file mode 100644
+index 0000000..e69de29
